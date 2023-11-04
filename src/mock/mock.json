@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "João Silva",
+    "telefone": "(11) 1234-5678",
+    "email": "joao.silva@email.com",
+    "categoria": "Facebook"
+  },
+  {
+    "nome": "Maria Santos",
+    "telefone": "(21) 9876-5432",
+    "email": "maria.santos@email.com",
+    "categoria": "Twitter"
+  },
+  {
+    "nome": "Carlos Oliveira",
+    "telefone": "(31) 5555-9999",
+    "email": "carlos.oliveira@email.com",
+    "categoria": "LinkedIn"
+  },
+  {
+    "nome": "Ana Pereira",
+    "telefone": "(41) 7777-1234",
+    "email": "ana.pereira@email.com",
+    "categoria": "Instagram"
+  },
+  {
+    "nome": "Pedro Mendes",
+    "telefone": "(51) 3333-8888",
+    "email": "pedro.mendes@email.com",
+    "categoria": "GitHub"
+  },
+  {
+    "nome": "Laura Costa",
+    "telefone": "(61) 1111-7777",
+    "email": "laura.costa@email.com",
+    "categoria": "Twitter"
+  },
+  {
+    "nome": "Fernando Rocha",
+    "telefone": "(71) 2222-6666",
+    "email": "fernando.rocha@email.com",
+    "categoria": "LinkedIn"
+  },
+  {
+    "nome": "Amanda Almeida",
+    "telefone": "(81) 1234-5678",
+    "email": "amanda.almeida@email.com",
+    "categoria": "Facebook"
+  },
+  {
+    "nome": "Gustavo Santos",
+    "telefone": "(91) 9999-1111",
+    "email": "gustavo.santos@email.com",
+    "categoria": "Instagram"
+  },
+  {
+    "nome": "Camila Ribeiro",
+    "telefone": "(61) 8888-5555",
+    "email": "camila.ribeiro@email.com",
+    "categoria": "Twitter"
+  }
+]

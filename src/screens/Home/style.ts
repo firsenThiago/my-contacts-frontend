@@ -5,7 +5,8 @@ export const HomeWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 99.8vh; //TO-DO colocar 100
+  margin-top: 74px;
+
   input {
     margin-top: 49px;
   }
