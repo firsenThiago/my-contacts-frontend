@@ -1,5 +1,7 @@
 const primary = {
   100: "#5061FC",
+  200: "#E0E3FF",
+  white: "#FFFFFF",
 };
 
 const secondary = {

@@ -1,4 +1,4 @@
-import { Header, Input } from "../../components";
+import { ContactsList, Header, Input } from "../../components";
 import { HomeWrapper } from "./style";
 
 export const Home = () => {
@@ -6,6 +6,7 @@ export const Home = () => {
     <HomeWrapper>
       <Header />
       <Input placeholder="Pesquisar contato..." mode="secondary" />
+      <ContactsList />
     </HomeWrapper>
   );
 };
