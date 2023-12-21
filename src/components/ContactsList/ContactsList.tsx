@@ -1,12 +1,13 @@
 import { ContactsListWrapper, Header, ListContainer, Card } from "./style";
 import { arrow, edit, trash } from "../../assets";
+import { Link } from "react-router-dom";
 
 export const ContactsList = () => {
   return (
     <ContactsListWrapper>
       <Header>
         <strong>3 contatos</strong>
-        <a href="/">Novo contato</a>
+        <Link to="/new"> Novo contato</Link>
       </Header>
       <ListContainer>
         <header>
@@ -25,9 +26,10 @@ export const ContactsList = () => {
             <span>(41) 99999-9999</span>
           </div>
           <div className="actions">
-            <a href="/">
+            <Link to="/edit/:id">
               <img src={edit} alt="Editar" />
-            </a>
+            </Link>
+
             <button>
               <img src={trash} alt="Deletar" />
             </button>

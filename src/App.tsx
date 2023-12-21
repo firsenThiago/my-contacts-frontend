@@ -1,16 +1,21 @@
 import { GlobalStyles, theme } from "./themes";
 import { ThemeProvider } from "styled-components";
-import { Home } from "./screens";
 import { Container } from "./style";
+import { Router } from "./routes";
+import { BrowserRouter } from "react-router-dom";
+import { Header } from "./components";
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyles />
-      <Container>
-        <Home />
-      </Container>
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        <Container>
+          <Header />
+          <Router />
+        </Container>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
 
