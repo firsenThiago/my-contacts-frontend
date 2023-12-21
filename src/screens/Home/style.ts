@@ -6,9 +6,6 @@ export const HomeWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  input {
-    margin-top: 49px;
-  }
 `;
 
 export const ContactsListWrapper = styled.div`

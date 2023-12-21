@@ -7,6 +7,7 @@ export const HeaderWrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 74px;
+  margin-bottom: 48px;
   h1 {
     color: ${theme.color.primary[100]};
     span {

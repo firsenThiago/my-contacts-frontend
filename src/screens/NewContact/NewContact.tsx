@@ -1,5 +1,10 @@
+import { PageHeader } from "../../components";
 import {} from "./style";
 
 export const NewContact = () => {
-  return <>New Contact</>;
+  return (
+    <>
+      <PageHeader title="Novo Contato" />
+    </>
+  );
 };
