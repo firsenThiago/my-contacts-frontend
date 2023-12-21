@@ -1,4 +1,4 @@
-import { CardWrapper } from "./style";
+import { InfoWrapper } from "./style";
 import { edit, trash } from "../../assets";
 import { Link } from "react-router-dom";
 import { Button } from "..";
@@ -15,7 +15,7 @@ type InfoContactProps = {
 
 export const InfoContact = ({ item, index }: InfoContactProps) => {
   return (
-    <CardWrapper>
+    <InfoWrapper>
       <div className="info">
         <div className="contact-name">
           <strong>{item.nome}</strong>
@@ -30,6 +30,6 @@ export const InfoContact = ({ item, index }: InfoContactProps) => {
         </Link>
         <Button type="button" icon={trash} alt="Deletar" />
       </div>
-    </CardWrapper>
+    </InfoWrapper>
   );
 };
