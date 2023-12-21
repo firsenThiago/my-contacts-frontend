@@ -1,3 +1,8 @@
 import styled from "styled-components";
 
-export const HomeWrapper = styled.div``;
+export const FormWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 16px;
+`;
