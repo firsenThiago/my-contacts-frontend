@@ -35,10 +35,5 @@ export const InfoWrapper = styled.div`
   .actions {
     display: flex;
     align-items: center;
-    button {
-      background: transparent;
-      border: none;
-      margin-left: 8px;
-    }
   }
 `;

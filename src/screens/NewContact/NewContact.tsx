@@ -1,4 +1,4 @@
-import { Input, PageHeader } from "../../components";
+import { Button, Input, PageHeader, Select } from "../../components";
 import { FormWrapper } from "./style";
 
 const inputData = [
@@ -6,6 +6,8 @@ const inputData = [
   { placeholder: "Email", type: "email" },
   { placeholder: "Telefone", type: "tel" },
 ];
+
+const optionsData = ["Facebook", "GitHub", "Instagram", "LinkedIn", "Twitter"];
 
 export const NewContact = () => {
   return (
@@ -22,6 +24,8 @@ export const NewContact = () => {
             />
           );
         })}
+        <Select options={optionsData} placeholder="Categorias" />
+        <Button mode="primary" text="Cadastrar" />
       </FormWrapper>
     </>
   );

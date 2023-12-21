@@ -28,7 +28,7 @@ export const InfoContact = ({ item, index }: InfoContactProps) => {
         <Link to={`/edit/${index}`}>
           <img src={edit} alt="Editar" />
         </Link>
-        <Button type="button" icon={trash} alt="Deletar" />
+        <Button mode="secondary" type="button" icon={trash} alt="Deletar" />
       </div>
     </InfoWrapper>
   );

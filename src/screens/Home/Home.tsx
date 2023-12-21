@@ -5,7 +5,6 @@ import {
   ListContainer,
 } from "./style";
 import { arrow } from "../../assets";
-import { Link } from "react-router-dom";
 import { Input, Button, InfoContact } from "../../components";
 import mock from "../../mock/mock.json";
 
@@ -16,13 +15,22 @@ export const Home = () => {
       <ContactsListWrapper>
         <Header>
           <strong>{mock.length} contatos</strong>
-          <Link to="/new">Novo contato</Link>
+          <Button
+            mode="link"
+            type="button"
+            toPage="/new"
+            linkText="Novo Contato"
+          />
         </Header>
         <ListContainer>
           <header>
-            <Button type="button" icon={arrow} alt="Ordenar">
-              Nome
-            </Button>
+            <Button
+              mode="iconButton"
+              type="button"
+              icon={arrow}
+              alt="Ordenar"
+              text="Nome"
+            />
           </header>
         </ListContainer>
         {mock.map((item, index) => (
