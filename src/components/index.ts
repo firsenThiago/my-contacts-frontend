@@ -1,3 +1,4 @@
-export * from "./ContactsList";
+export * from "./Button";
+export * from "./InfoContact";
 export * from "./Input";
 export * from "./Header";
